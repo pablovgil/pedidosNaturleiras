@@ -10,7 +10,8 @@ public class WebController {
 	
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String home(){
-        return "bootstraphelloworld.html";
+        //return "bootstraphelloworld.html";
+        return "reactBootstrap2.html";
     }
     
     @ResponseBody
