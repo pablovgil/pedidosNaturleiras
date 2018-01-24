@@ -20,7 +20,7 @@ body {
 }
 
 .center {
-  position: relative;
+  position: absolute;
   margin-left: auto;
   margin-right: auto;
 }
@@ -43,7 +43,11 @@ body {
 }
 
 #section3 {
-  background-color: #ff9800;
+  background-image: image-url("../img/background/pf1.jpg", false, false) url("../img/background/pf1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #section41 {
