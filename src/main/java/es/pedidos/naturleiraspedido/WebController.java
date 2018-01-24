@@ -13,7 +13,7 @@ public class WebController {
 	
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String home(){
-        return "index.html";
+        return "index2.html";
         //return "reactBootstrap2.html";
     }
     
