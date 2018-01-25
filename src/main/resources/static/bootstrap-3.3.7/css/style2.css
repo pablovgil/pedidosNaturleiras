@@ -1,12 +1,13 @@
 body {
   position: relative;
-  line-height: 1.1em;
+  line-height: 1.3em;
   font-family: 'Open Sans', Arial, sans-serif;
+  background-image: url(/img/background/grey.jpg);
 }
 
 .navbar-header a {
   color: #fff;
-  font-size: 1.75em;
+  font-size: 2em;
   margin-left: 0;
   font-weight: 400;
   text-transform: uppercase;
@@ -15,7 +16,7 @@ body {
 .navbar-nav a {
   font-weight: 600;
   color: #fff;
-  font-size: 12px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
@@ -43,7 +44,8 @@ body {
 }
 
 #section3 {
-  background-image: image-url("../img/background/pf1.jpg", false, false) url("../img/background/pf1.jpg");
+  background-image: url("/img/background/pf1.jpg");
+  min-height: 500;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,5 +58,12 @@ body {
 
 #section42 {
   background-color: #009688;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  height: 70px;
+  line-height: 70px;
+  padding-top: 0;
 }
 /*# sourceMappingURL=style2.css.map */
